@@ -1,0 +1,11 @@
+.produtos__produtoVer{
+    color: #2A7AE4;
+    font-weight: 700;
+    margin: 0;
+    text-decoration: none;
+}
+
+.produtos__produtoVer:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}

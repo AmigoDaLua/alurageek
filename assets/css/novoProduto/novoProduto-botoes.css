@@ -1,0 +1,7 @@
+@media screen and (min-width: 1024px){
+    .novoProduto__botoes{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+}

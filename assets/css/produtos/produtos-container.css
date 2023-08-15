@@ -1,0 +1,15 @@
+.produtos__container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0.5rem 1rem;
+    justify-content: space-between;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px){
+    .produtos__container{
+        display: block;
+
+    }
+}

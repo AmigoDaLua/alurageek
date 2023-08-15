@@ -1,0 +1,17 @@
+.cabecalho__buscaBotao{
+    opacity: 60%;
+    margin-top: 0.25rem;
+    max-width: 2rem;
+}
+
+.cabecalho__buscaBotao:hover{
+    cursor: pointer;
+    opacity: 80%;
+}
+
+@media screen and (min-width: 768px){
+    .cabecalho__buscaBotao--mini{
+        display: none;
+    }
+}
+

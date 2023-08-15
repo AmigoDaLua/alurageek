@@ -1,0 +1,35 @@
+.produtos__produtoImagem{
+    max-width: calc(155px - 0.75rem);
+}
+
+.produtos__produtoImagem--editavel{
+
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.75rem;
+    width: calc(155px - 0.75rem);
+    height: calc(165px - 0.75rem);
+    
+}
+
+@media screen and (max-width: 320px){
+    .produtos__produtoImagem--todos{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .produtos__produtoImagem{
+        max-width: 95px;
+        max-height: 90px;
+        
+    }
+}
+
+/* @media screen and (max-width: 320px){
+    .produtos__produtoImagem{
+        max-width: 135px;
+        max-height: 135px;
+    }
+} */

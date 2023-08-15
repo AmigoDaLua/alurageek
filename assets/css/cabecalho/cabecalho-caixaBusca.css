@@ -1,0 +1,30 @@
+.cabecalho__caixaBusca{
+    display: flex;
+    justify-content: flex-start;
+    background: #F5F5F5;
+    border: none;
+    border-radius: 24px;
+    height: 40px;
+    padding-left: 1rem;
+    outline: none;
+    width: 272px;
+    align-items: center;
+}
+
+.cabecalho__caixaBusca--mini {
+    justify-content: center;
+    max-width: 70%;
+    margin: 0 auto;
+    
+}
+
+@media screen and (max-width: 767px){
+    .cabecalho__caixaBusca{
+        display: none;
+    }
+
+    .cabecalho__caixaBusca--mini{
+        display: flex;
+        justify-content: flex-start;
+    }
+}

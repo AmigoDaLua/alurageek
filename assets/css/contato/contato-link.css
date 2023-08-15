@@ -1,0 +1,17 @@
+.contato__link {
+    color: #464646;
+    font-weight: 500;
+    text-decoration: none;
+    margin-bottom: 0.75rem;
+}
+
+.contato__link:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 768px){
+    .contato__link{
+        padding-bottom: 0.75rem;
+    }
+}

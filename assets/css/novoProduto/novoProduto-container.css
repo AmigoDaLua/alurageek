@@ -1,0 +1,13 @@
+.novoProduto__container {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 1024px){
+    @media screen and (min-width: 1024px){
+        .novoProduto__container {
+            margin: 0 auto 2.5rem auto;
+            width: 37%;
+        }
+    }
+}

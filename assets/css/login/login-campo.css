@@ -1,0 +1,10 @@
+.login__campo {
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    padding-left: 0.5rem;
+    padding-top: 1rem;
+    font-size: 14px;
+}
+
+

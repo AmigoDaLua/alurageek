@@ -1,0 +1,10 @@
+.cabecalho__botaoCancelar{
+    opacity: 60%;
+    margin-top: 0.25rem;
+    max-width: 20px;
+}
+
+.cabecalho__botaoCancelar:hover{
+    cursor: pointer;
+    opacity: 80%;
+}

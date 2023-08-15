@@ -1,0 +1,24 @@
+.rodape__texto{
+    color: white;
+}
+
+.rodape__texto a {
+    text-decoration: none;
+    color: #7ca5d9;
+}
+
+.rodape__texto a:hover{
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 320px){
+    .rodape__texto{
+        font-size: 11px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .rodape__texto{
+        font-size: 11px;
+    }
+}

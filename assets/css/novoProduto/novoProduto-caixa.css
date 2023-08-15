@@ -1,0 +1,20 @@
+.novoProduto__caixa {
+    background: white;
+    border: none;
+    border-bottom: 3px solid lightgrey;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    height: 3rem;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.novoProduto__caixa:focus-within {
+    border-bottom: 3px solid #2A7AE4;
+ 
+}
+
+.novoProduto__caixa--descricao {
+    height: 5rem;
+}

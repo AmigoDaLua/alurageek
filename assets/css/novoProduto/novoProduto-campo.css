@@ -1,0 +1,11 @@
+.novoProduto__campo {
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    padding-left: 0.5rem;
+}
+
+.novoProduto__campo--descricao {
+    padding-top: 0.5rem;
+    resize: none;
+}

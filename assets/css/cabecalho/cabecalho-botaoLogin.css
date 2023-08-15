@@ -1,0 +1,30 @@
+.cabecalho__botaoLogin {
+    align-self: flex-end;
+    border: 2px solid #2A7AE4;
+    color: #2A7AE4;
+    font-weight: 600;
+    padding: 0.75rem;
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+    width: 30%;
+}
+
+@media screen and (min-width: 768px){
+    .cabecalho__botaoLogin{
+        order: 1;
+        width: 20%
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .cabecalho__botaoLogin{
+        width: 15%;
+    }
+
+    .cabecalho__botaoLogin:hover{
+        background: #2A7AE4;
+        color: white;
+
+    }
+}

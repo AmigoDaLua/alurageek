@@ -1,0 +1,33 @@
+.contato__botaoEnviar {
+    background: #2A7AE4;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2.75rem;
+    width: 50%
+}
+
+.contato__botaoEnviar:hover{
+    cursor: pointer;
+    background: #246bc7;
+}
+
+@media screen and (max-width: 320px){
+    .contato__botaoEnviar{
+        width: 55%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .contato__botaoEnviar{
+        width: 38%;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .contato__botaoEnviar{
+        width: 45%;
+    }
+}
+

@@ -1,0 +1,23 @@
+
+.produtos__produtoIcone{
+    max-width: 16px;
+    max-height: 16px;
+    border: none;
+    outline: none;
+}
+
+.produtos__produtoIcone--editar{
+    background: url("../../img/icone_editar.svg") no-repeat center / cover;
+    margin-left: 1.5rem;
+    width: 20px;
+}
+
+.produtos__produtoIcone--apagar{
+    background: url("../../img/icone_apagar.svg") no-repeat center / cover;
+}
+
+.produtos__produtoIcone:hover{
+    cursor: pointer;
+}
+
+

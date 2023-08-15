@@ -1,0 +1,20 @@
+.cabecalho {
+    padding: 1rem;
+    align-items: center;
+}
+
+.cabecalho__doisBotoes {
+    display: flex;
+}
+
+@media screen and (min-width: 768px){
+    .cabecalho{
+        padding: 1rem 2rem;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .cabecalho{
+        padding: 1rem 4rem;
+    }
+}

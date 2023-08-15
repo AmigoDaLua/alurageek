@@ -1,0 +1,24 @@
+.bannerHome__container{
+    background: url(../../img/fundo_promo.png) no-repeat center / cover;
+    display: flex;
+    flex-direction: column;
+    height: 180px;
+    justify-content: flex-end;
+    padding: 1rem;
+
+}
+
+@media screen and (min-width: 768px){
+    .bannerHome__container{
+        height: calc(300px - 2rem);
+        padding: 2rem;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .bannerHome__container{
+        padding: 4rem;
+    }
+}
+
+

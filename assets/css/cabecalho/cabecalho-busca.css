@@ -1,0 +1,17 @@
+.cabecalho__busca {
+    background: transparent;
+    border: none;
+    outline: none;
+    padding-left: 0.1rem;
+    width: 85%;
+}
+
+.cabecalho__busca--mini {
+    width: 30px;
+}
+
+@media screen and (min-width: 768px){
+    .cabecalho__busca{
+        order: 0;
+    }
+}

@@ -1,0 +1,11 @@
+.produtos__verTudo{
+    color: #2A7AE4;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.produtos__verTudo:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}

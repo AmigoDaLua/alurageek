@@ -1,0 +1,10 @@
+.bannerHome__texto{
+    color: white;
+}
+
+@media screen and (min-width: 768px){
+    .bannerHome__texto{
+        font-size: 22px;
+        font-weight: 600;
+    }
+}

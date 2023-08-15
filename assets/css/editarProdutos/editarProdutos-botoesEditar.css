@@ -1,0 +1,7 @@
+@media screen and (min-width: 1024px){
+    .editarProdutos__botoesEditar{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+}

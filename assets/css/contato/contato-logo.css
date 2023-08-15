@@ -1,0 +1,11 @@
+.contato__logo{
+    width: 200px;
+    margin-bottom: 1rem;
+    
+}
+
+@media screen and (min-width: 1024px){
+    .contato__logo{
+        width: 170px;
+    }
+}

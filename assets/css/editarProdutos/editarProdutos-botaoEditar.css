@@ -1,0 +1,23 @@
+.editarProdutos__botaoEditar {
+    background: #2A7AE4;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2.75rem;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+}
+
+.editarProdutos__botaoEditar:hover{
+    cursor: pointer;
+    background: #246bc7;
+}
+
+@media screen and (min-width: 1024px){
+    .editarProdutos__botaoEditar{
+        margin-right: 1rem;
+        margin-top: 1rem;
+    }
+}

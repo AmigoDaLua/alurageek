@@ -1,0 +1,29 @@
+.produtos{
+    align-items: center;
+    background: #f5f5f5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.produtos--todos{
+    padding: 1rem;
+}
+
+@media screen and (min-width: 768px){
+    .produtos{
+        padding: 2rem;
+    }
+
+    /* .produtos--editaveis {
+        display: flex;
+        align-items: center;
+    } */
+}
+
+@media screen and (min-width: 1024px){
+    .produtos{
+        padding: 2rem 4rem;
+    }
+}

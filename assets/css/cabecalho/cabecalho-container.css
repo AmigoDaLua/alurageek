@@ -1,0 +1,12 @@
+.cabecalho__container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+@media screen and (max-width: 375px){
+    .cabecalho__container{
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,20 @@
+.novoProduto__botaoCancelar {
+    background: #2A7AE4;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2.75rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+}
+
+.novoProduto__botaoCancelar:hover{
+    cursor: pointer;
+    background: #246bc7;
+}
+
+
+

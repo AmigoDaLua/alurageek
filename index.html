@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-botaoMenu.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-container.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-logo.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-botaoLogin.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-busca.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-caixaBusca.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-buscaBotao.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-botaoCancelar.css">
+    <link rel="stylesheet" href="./assets/css/novoProduto.css">
+    <link rel="stylesheet" href="./assets/css/novoProduto/novoProduto-botaoAdicionar.css">
+    <link rel="stylesheet" href="./assets/css/novoProduto/novoProduto-container.css">
+    <link rel="stylesheet" href="./assets/css/novoProduto/novoProduto-titulo.css">
+    <link rel="stylesheet" href="./assets/css/novoProduto/novoProduto-campo.css">
+    <link rel="stylesheet" href="./assets/css/novoProduto/novoProduto-caixa.css">
+    <link rel="stylesheet" href="./assets/css/novoProduto/novoProduto-form.css">
+    <link rel="stylesheet" href="./assets/css/novoProduto/novoProduto-label.css">
+    <link rel="stylesheet" href="./assets/css/contato.css">
+    <link rel="stylesheet" href="./assets/css/contato/contato-links.css">
+    <link rel="stylesheet" href="./assets/css/contato/contato-link.css">
+    <link rel="stylesheet" href="./assets/css/contato/contato-container.css">
+    <link rel="stylesheet" href="./assets/css/contato/contato-logo.css">
+    <link rel="stylesheet" href="./assets/css/contato/contato-botaoEnviar.css">
+    <link rel="stylesheet" href="./assets/css/contato/contato-caixa.css">
+    <link rel="stylesheet" href="./assets/css/contato/contato-campo.css">
+    <link rel="stylesheet" href="./assets/css/contato/contato-form.css">
+    <link rel="stylesheet" href="./assets/css/contato/contato-label.css">
+    <link rel="stylesheet" href="./assets/css/contato/contato-formTitulo.css">
+    <link rel="stylesheet" href="./assets/css/rodape.css">
+    <link rel="stylesheet" href="./assets/css/rodape/rodape-texto.css">
+    <link rel="stylesheet" href="./assets/css/bannerHome.css">
+    <link rel="stylesheet" href="./assets/css/bannerHome/bannerHome-botaoVerConsoles.css">
+    <link rel="stylesheet" href="./assets/css/bannerHome/bannerHome-container.css">
+    <link rel="stylesheet" href="./assets/css/bannerHome/bannerHome-texto.css">
+    <link rel="stylesheet" href="./assets/css/bannerHome/bannerHome-titulo.css">
+    <link rel="stylesheet" href="./assets/css/produtos.css">
+    <link rel="stylesheet" href="./assets/css/produtos/produtos-caixaCabecalho.css">
+    <link rel="stylesheet" href="./assets/css/produtos/produtos-categoria.css">
+    <link rel="stylesheet" href="./assets/css/produtos/produtos-categorias.css">
+    <link rel="stylesheet" href="./assets/css/produtos/produtos-container.css">
+    <link rel="stylesheet" href="./assets/css/produtos/produtos-verTudo.css">
+    <link rel="stylesheet" href="./assets/css/produtos/produtos-caixaProdutos.css">
+    <link rel="stylesheet" href="./assets/css/produtos/produtos-produto.css">
+    <link rel="stylesheet" href="./assets/css/produtos/produtos-codigo.css">
+    <link rel="stylesheet" href="./assets/css/produtos/produtos-produtoImagem.css">
+    <link rel="stylesheet" href="./assets/css/produtos/produtos-produtoNome.css">
+    <link rel="stylesheet" href="./assets/css/produtos/produtos-produtoPreco.css">
+    <link rel="stylesheet" href="./assets/css/produtos/produtos-produtoVer.css">
+
+    
+    <title>AluraGeek</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__container">
+            <a href="./index.html"><img src="./assets/img/logo.svg" alt="Logo AluraGeek" class="cabecalho__logo"></a>
+            <a href="./login.html" class="cabecalho__botaoLogin" id="botaoLogin">Login</a>
+            <div class="cabecalho__caixaBusca">
+                <input type="search" id="busca" class="cabecalho__busca" placeholder="O que buscar?" minlength="3" data-busca>
+                <img src="./assets/img/busca.svg" alt="Ícone de busca" class="cabecalho__buscaBotao" data-botao-busca>
+            </div>
+            <div class="cabecalho__busca cabecalho__busca--mini">
+                <img src="./assets/img/busca.svg" alt="Ícone de busca" class="cabecalho__buscaBotao--mini" data-botao-busca-mini>
+            </div>
+        </nav>
+    </header>
+    <section class="bannerHome">
+        <div class="bannerHome__container">
+            <h2 class="bannerHome__titulo">Dezembro promocional</h2>
+            <p class="bannerHome__texto">Produtos selecionados com 33% de desconto</p>
+            <a class="bannerHome__botaoVerConsoles" href="#Consoles">Ver consoles</a>
+        </div>
+    </section>
+    <section class="produtos">
+        <div class="produtos__container" data-produtos>
+            <div class="produtos__categorias">
+                <div class="produtos__caixaCabecalho">
+                    <h2 class="produtos__categoria produtos__categoria--starWars">Star Wars</h2>
+                    <a href="./login.html" class="produtos__verTudo"><p>Ver tudo 🡢</p></a>
+                </div>
+                <div class="produtos__caixaProdutos" id="Star Wars" data-caixa-starWars>
+                    <!-- Área de produtos da categoria -->
+                </div>
+            </div>
+        <div class="produtos__categorias">
+                <div class="produtos__caixaCabecalho">
+                    <h2 class="produtos__categoria produtos__categoria--consoles" >Consoles</h2>
+                    <a href="./login.html" class="produtos__verTudo"><p>Ver tudo 🡢</p></a>
+                </div>
+                <div class="produtos__caixaProdutos" id="Consoles" data-caixa-consoles>
+                    <!-- Área de produtos da categoria -->
+                </div>
+            </div>
+        <div class="produtos__categorias">
+                <div class="produtos__caixaCabecalho">
+                    <h2 class="produtos__categoria produtos__categoria--diversos">Diversos</h2>
+                    <a href="./login.html" class="produtos__verTudo"><p>Ver tudo 🡢</p></a>
+                </div>
+                <div class="produtos__caixaProdutos" id="Diversos" data-caixa-diversos>
+                    <!-- Área de produtos da categoria -->
+                </div>
+        </div>
+    </section>
+    <section class="contato">
+        <div class="contato__container">
+        <img src="./assets/img/logo.svg" alt="Logo AluraGeek" class="contato__logo">
+            <div class="contato__links">
+                <a href="#" class="contato__link">Quem somos</a>
+                <a href="#" class="contato__link">Política de Privacidade</a>
+                <a href="#" class="contato__link">Programa de fidelidade</a>
+                <a href="#" class="contato__link">Nossas lojas</a>
+                <a href="#" class="contato__link">Quero ser franqueado</a>
+                <a href="#" class="contato__link">Anuncie aqui</a>
+            </div>
+        </div>
+        <!-- formsubmit.co é uma ótima solução pra enviar um form para si mesmo -->
+        <form action="https://formsubmit.co/matheus.zuti@gmail.com" method="POST" class="contato__form" >
+            <h4 class="contato__formTitulo">Fale conosco</h4>
+            <div class="contato__caixa">
+                <label for="nome" class="contato__label">Nome</label>
+                <input class="contato__campo" id="nome" type="text" name="name" required minlength="3" maxlenght="40">
+            </div>
+            <div class="contato__caixa contato__caixa--mensagem">
+                <textarea cols="30" rows="20" class="contato__campo contato__campo--mensagem" id="mensagem" name="text" type="textarea" placeholder="Escreva sua mensagem" required minlength="3" maxlength="120"></textarea>
+            </div>
+            <button class="contato__botaoEnviar">Enviar mensagem</button>
+        </form>
+    </section>
+    <script src="./assets/js/buscarProduto.js" type="module"></script>
+    <script src="./assets/js/mostrarProdutos.js" type="module"></script>
+    <script src="./assets/js/minimizaBusca.js" type="module"></script>
+    <script src="./assets/js/exibeCategorias.js" type="module"></script>
+</body>
+<footer class="rodape">
+    <p class="rodape__texto">Desenvolvido por <a href="https://github.com/AmigoDaLua" target="_blank">Matheus Pantunes (2023)</a></p>
+</footer>
+</html>

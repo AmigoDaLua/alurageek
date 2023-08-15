@@ -1,0 +1,35 @@
+.bannerHome__botaoVerConsoles{
+    background: #2A7AE4;
+    border: none;
+    color: white;
+    font-weight: 600; 
+    line-height: 1.75rem;
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+    width: 30%;
+}
+
+.bannerHome__botaoVerConsoles:hover{
+    background: white;
+    color:#2A7AE4;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 320px){
+    .bannerHome__botaoVerConsoles{
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .bannerHome__botaoVerConsoles{
+        width: 20%;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .bannerHome__botaoVerConsoles{
+        width: 15%;
+    }
+}

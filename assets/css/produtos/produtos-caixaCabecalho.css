@@ -1,0 +1,21 @@
+.produtos__caixaCabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.produtos__caixaCabecalho--todos{
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 768px){
+    .produtos__caixaCabecalho--todos{
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+}

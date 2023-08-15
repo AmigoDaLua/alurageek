@@ -1,0 +1,15 @@
+.bannerHome__titulo{
+    color: white;
+}
+
+@media screen and (min-width: 768px){
+    .bannerHome__titulo{
+        font-size: 52px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .bannerHome__titulo{
+        font-size: 61px;
+    }
+}
